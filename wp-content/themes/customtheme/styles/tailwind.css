@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+     .menu-item-has-children .sub-menu {
+        /* @apply hidden w-16 p-2 bg-white shadow-md text-black; */
+        @apply text-red-300
+    }
+    /* .top-menu .menu-item-has-children:hover .sub-menu {
+        @apply block;
+    } */
+}
